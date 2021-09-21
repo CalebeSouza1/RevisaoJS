@@ -10,6 +10,5 @@ const cliente = {
 }
 
 console.log(cliente.nome)
-console.log(cliente.idade)
-console.log(cliente.cpf)
-console.log(cliente.email)
+console.log(cliente.cpf.substring(0,5))
+console.log(`Meu email é ${cliente.email} e tenho ${cliente.idade} anos.`)
